@@ -1,0 +1,5 @@
+sample,coherence_1_5,style_a_similarity_1_5,style_b_similarity_1_5,hybrid_success_1_5,audio_quality_1_5,notes
+style_a,,,,,,
+style_b,,,,,,
+hybrid,,,,,,
+hybrid_lora,,,,,,

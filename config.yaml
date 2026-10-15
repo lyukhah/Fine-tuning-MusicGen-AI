@@ -1,0 +1,23 @@
+project_name: music_style_fusion
+
+data:
+  raw_style_a_dir: data/raw/style_a
+  raw_style_b_dir: data/raw/style_b
+  processed_dir: data/processed
+  metadata_csv: data/metadata/metadata.csv
+  sample_rate: 32000
+  clip_duration: 15
+
+training:
+  batch_size: 2
+  epochs: 3
+  learning_rate: 0.0001
+  checkpoint_dir: outputs/checkpoints
+  log_dir: outputs/logs
+
+generation:
+  output_dir: outputs/samples
+  num_samples: 5
+
+evaluation:
+  figure_dir: outputs/figures
